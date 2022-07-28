@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding-top: 20px;
+}
+.img-card {
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px 25px 0 0;
+}
+.head-img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+.head-title {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.info-card {
+    width: 500px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 0px 0px;
+    border-radius: 0 0 25px 25px;
+}
+.count {
+    font-size: 55px;
+}
+
+.playing-to-line {
+    padding: 20px 0px;
+}
+.select {
+    display: inline-block;
+    width: 15%;
+    margin: 10px 10px;
+    border-radius: 70px;
+}
+.buttons {
+    --bs-gutter-x: 0rem;
+}
+.btn {
+    border-radius: 0px;
+    padding: 10px 30px;
+    color: rgb(235, 249, 249);
+}
+.reset-btn {
+    font-size: 1.5em;
+    border-radius: 0 0 25px 0;
+}
+.player1 {
+    border-radius: 0 0 0 25px;
+}
+
+.winner {
+    color: rgb(63, 157, 66);
+}
+.looser {
+    color: rgb(169, 31, 31);
+}
+
+.noselect {
+    user-select: none;
+}
